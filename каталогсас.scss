@@ -1,0 +1,152 @@
+$white: white;
+$black: black;
+$blue:  rgb(72, 98, 237, 1.0);
+@mixin flex{
+    display: flex;
+}
+@mixin flex2{
+    display: flex;
+	align-items: center;
+}
+@mixin flex3{
+    display: flex;
+	justify-content: center;
+}
+@mixin flex4{
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
+body {
+	font-family: 'Roboto Flex';
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
+.white {
+	color: $white;
+}
+
+.header {
+	position: relative;
+    @include flex2;
+	word-break: break-word;
+}
+
+#logo {
+    @include flex;
+}
+
+#menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+    @include flex4;
+	flex-direction: column;
+	font-weight: Regular;
+	background-color: $blue;
+	color: $white;
+}
+
+.burger-menu {
+    @include flex4;
+	cursor: pointer;
+}
+
+.burger-menu div {
+	background:  $blue;
+}
+
+.menu-items {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+}
+
+.menu-items a {
+    @include flex4;
+	text-decoration: none;
+	color: $white;
+}
+
+#menu:hover .menu-items {
+    @include flex;
+}
+
+.men {
+    @include flex4;
+}
+
+.footer {
+    @include flex4;
+	flex-flow: column;
+	word-break: break-word;
+	background-color: $blue;
+}
+
+#info {
+    @include flex;
+	justify-content: space-between;
+	margin-bottom: px;
+}
+
+#info>div {
+	color: $white;
+	border-color: $black;
+}
+
+#ref {
+    @include flex;
+	justify-content: space-between;
+}
+
+.refimg {
+    @include flex4;
+}
+
+.fotimg1 {
+	background-color: $white;
+}
+
+.fotimg2 {
+	background-color: $white;
+}
+
+.fotimg3 {
+	background-color: $white;
+}
+
+.main {
+    @include flex2;
+	justify-content: space-between;
+}
+
+.item {
+    @include flex;
+	word-break: break-word;
+
+}
+
+.inf {
+    @include flex3;
+	word-break: break-word;
+}
+
+.price {
+	@include flex4;
+	font-weight: bold;
+}
+
+.item_img {
+	@include flex4;
+}
+
+.name {
+    @include flex;
+	font-weight: medium;
+}

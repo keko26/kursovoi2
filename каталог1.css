@@ -1,0 +1,184 @@
+.header {
+	width: 100%;
+	height: 100px;
+}
+
+#logo {
+	width: 100px;
+	height: 100%;
+	margin-left: 56px;
+	margin-right: 20px;
+}
+
+#name {
+	width: 200px;
+	height: 50%;
+	font-size: 40px;
+}
+
+#menu {
+	width: 150px;
+	height: 100%;
+	background-color: rgb(72, 98, 237, 1.0);
+}
+
+.burger-menu {
+	width: 150px;
+	height: 100%;
+}
+
+.menu-items {
+	width: 150px;
+	height: 300px;
+	top: 100%;
+	background: darkblue;
+
+}
+
+.menu-items a {
+	width: 150px;
+	height: 100px;
+}
+
+#name {
+	display: flex;
+	font-weight: medium;
+	align-items: center;
+	justify-content: center;
+	align-self: left;
+}
+
+.men {
+	width: 150px;
+	height: 100px;
+}
+
+.footer {
+	width: 100%;
+	height: 130px;
+}
+
+#info {
+	margin-top: 20px;
+	width: 374px;
+}
+
+#ref {
+	width: 320px;
+}
+
+.refimg {
+	width: 62px;
+	height: 48px;
+}
+
+.fotimg1 {
+	width: 48px;
+	height: 48px;
+}
+
+.fotimg2 {
+	width: 48px;
+	height: 48px;
+}
+
+.fotimg3 {
+	width: 48px;
+	height: 48px;
+	border-radius: 9;
+	border-radius: 9px;
+}
+
+.main {
+	flex-flow: row wrap;
+	width: 78%;
+	margin-left: 11.5%;
+}
+
+.item {
+	flex: 0 0 25%;
+	margin: 5px;
+	flex-flow: column;
+	width: 30.7%;
+	height: 360px;
+
+}
+
+#catalog {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: rgb(72, 98, 237, 1.0);
+}
+
+.catalog-item {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: white;
+}
+
+.item2 {
+	margin-right: 3.15%;
+}
+
+.item_img {
+	width: 250px;
+	height: 190px;
+	margin-top: 5.5%;
+}
+
+.inf {
+	width: 83.3%;
+	height: 100px;
+	font-size: 20px;
+	text-align: center;
+}
+
+.price {
+	width: 60%;
+	height: 35px;
+	font-size: 25px;
+}
+
+#catalog {
+	width: 100%;
+	height: 69px;
+}
+
+.catalog-item {
+	width: 206px;
+	height: 100%;
+	font-size: 20px;
+	font-weight: 600;
+}
+
+.item_img>img {
+	width: 50%;
+}
+
+.catalog-item1 {
+	margin-right: 2%;
+}
+
+#img8 {
+	width: 40%;
+}
+
+.name {
+	width: 78%;
+	font-size: 40px;
+	border-bottom: 2px solid;
+	margin-left: 11.5%;
+	margin-bottom: 30px;
+	padding-bottom: 21px;
+	padding-top: 10px;
+}
+
+.divinf {
+	width: 300px;
+}
+
+.but {
+	font-size: 0px;
+}

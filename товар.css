@@ -1,0 +1,222 @@
+body {
+	font-family: 'Roboto Flex';
+}
+a {
+			text-decoration: none;
+			color: white;
+		}
+
+		#ref {
+			color: black;
+		}
+
+.header {
+	position: relative;
+	display: flex;
+	align-items: center;
+	word-break: break-word;
+}
+
+#logo {
+	display: flex;
+}
+
+#name {
+	display: flex;
+	font-weight: medium;
+	align-items: center;
+	justify-content: center;
+	align-self: left;
+}
+
+#menu {
+	position: absolute;
+	right: 0;
+	top: 0;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	font-weight: Regular;
+	background-color: rgb(72, 98, 237, 1.0);
+	color: white;
+}
+
+.burger-menu {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.burger-menu div {
+	background: rgb(72, 98, 237, 1.0);
+}
+
+.menu-items {
+	display: none;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	position: absolute;
+	/* background: darkblue; */
+}
+
+.menu-items a {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-decoration: none;
+	color: white;
+}
+
+#menu:hover .menu-items {
+	display: flex;
+}
+
+.men {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.footer {
+	display: flex;
+	flex-flow: column;
+	align-items: center;
+	justify-content: center;
+	word-break: break-word;
+	background-color: rgb(72, 98, 237, 1.0);
+}
+
+#info {
+	display: flex;
+	justify-content: space-between;
+}
+
+#info>div {
+	color: white;
+	border-color: black;
+}
+
+#ref {
+	display: flex;
+	justify-content: space-between;
+}
+
+.refimg {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.fotimg1 {
+	background-color: white;
+}
+
+.fotimg2 {
+	border-radius: px;
+	background-color: white;
+}
+
+.fotimg3 {
+	background-color: white;
+}
+
+.main {
+	display: flex;
+	flex-flow: row wrap;
+}
+
+.name {
+	display: flex;
+	font-weight: medium;
+	border-bottom: 2px solid;
+}
+
+#top {
+	display: flex;
+}
+
+#photo {
+	display: flex;
+}
+
+#price {
+	font-weight: bold;
+}
+
+#gallery {
+	display: flex;
+	overflow-x: auto;
+	scrollbar-width: none;
+}
+
+#gallery:hover {
+	scrollbar-width: thin;
+	scrollbar-color: #888 #f1f1f1;
+}
+
+#gallery:hover::-webkit-scrollbar-track {
+	background: #f1f1f1;
+}
+
+#gallery:hover::-webkit-scrollbar-thumb {
+	background: #888;
+}
+
+#gallery:hover::-webkit-scrollbar-thumb:hover {
+	background: #555;
+}
+
+.gallery-item img {
+	object-fit: cover;
+}
+
+.line {
+	border-bottom: 1px solid;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.characteristics-text {
+	display: flex;
+	align-items: center;
+}
+
+.characteristics-text2 {
+	display: flex;
+	align-items: center;
+}
+
+.main-line {
+	display: flex;
+	align-items: center;
+}
+
+#modal {
+	position: fixed;
+	left: 0;
+	top: 0;
+	overflow: auto;
+	background-color: rgba(0, 0, 0, 0.9);
+}
+
+#modal-content {
+	margin: 15% auto;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+.line2 {
+	background-color: rgba(81, 81, 81, 0.2);
+	font-weight: medium;
+
+}
+
+.main-line {
+	border-bottom: 1px solid;
+	border-top: 1px solid;
+}

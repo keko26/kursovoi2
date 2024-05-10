@@ -1,0 +1,151 @@
+body {
+  font-family: "Roboto Flex";
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+.white {
+  color: white;
+}
+
+.header {
+  position: relative;
+  display: flex;
+  align-items: center;
+  word-break: break-word;
+}
+
+#logo {
+  display: flex;
+}
+
+#menu {
+  position: absolute;
+  right: 0;
+  top: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  font-weight: Regular;
+  background-color: rgb(72, 98, 237);
+  color: white;
+}
+
+.burger-menu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.burger-menu div {
+  background: rgb(72, 98, 237);
+}
+
+.menu-items {
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+}
+
+.menu-items a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  color: white;
+}
+
+#menu:hover .menu-items {
+  display: flex;
+}
+
+.men {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-flow: column;
+  word-break: break-word;
+  background-color: rgb(72, 98, 237);
+}
+
+#info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: px;
+}
+
+#info > div {
+  color: white;
+  border-color: black;
+}
+
+#ref {
+  display: flex;
+  justify-content: space-between;
+}
+
+.refimg {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.fotimg1 {
+  background-color: white;
+}
+
+.fotimg2 {
+  background-color: white;
+}
+
+.fotimg3 {
+  background-color: white;
+}
+
+.main {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.item {
+  display: flex;
+  word-break: break-word;
+}
+
+.inf {
+  display: flex;
+  justify-content: center;
+  word-break: break-word;
+}
+
+.price {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: bold;
+}
+
+.item_img {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.name {
+  display: flex;
+  font-weight: medium;
+}
