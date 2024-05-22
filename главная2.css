@@ -54,6 +54,7 @@
 			#info {
 				margin-top: 20px;
 				width: 374px;
+				font-size: 10px;
 			}
 
 			#ref {
@@ -66,18 +67,18 @@
 			}
 
 			.fotimg1 {
-				width: 48px;
-				height: 48px;
+				width: 38px;
+				height: 38px;
 			}
 
 			.fotimg2 {
-				width: 48px;
-				height: 48px;
+				width: 38px;
+				height: 38px;
 			}
 
 			.fotimg3 {
-				width: 48px;
-				height: 48px;
+				width: 38px;
+				height: 38px;
 				border-radius: 9;
 				border-radius: 9px;
 			}
