@@ -1,49 +1,60 @@
 		.header {
-			width: 100%;
 			height: 100px;
 		}
-
-		#catalog {
-			display: none;
+		/* ..............., */
+		header {
+			width: 100%;
+			height: 90px;
 		}
-
+		.header{
+			height: 90px;
+		}
 		#logo {
-			width: 100px;
-			height: 100%;
-			margin-left: 5px;
+			width: 90px;
+			height: 90%;
+			margin-left: 12px;
 		}
 
 		#name {
-			width: 200px;
+			width: 85px;
 			height: 50%;
-			font-size: 40px;
+			font-size: 20px;
 		}
 
 		#menu {
-			width: 150px;
+			width: 120px;
 			height: 100%;
 		}
 
 		.burger-menu {
-			width: 150px;
+			width: 120px;
 			height: 100%;
 		}
 
 		.menu-items {
-			width: 150px;
+			width: 120px;
 			height: 300px;
 			top: 100%;
-			background-color: rgb(72, 98, 237, 1.0);
 		}
 
 		.menu-items a {
-			width: 150px;
+			width: 120px;
 			height: 100px;
 		}
 
 		.men {
-			width: 150px;
+			width: 120px;
 			height: 100px;
+			font-size: 12px;
+		}
+
+		/* //////////////////////// */
+		#catalog {
+			display: none;
+		}
+
+		.menu-items {
+			background-color: rgb(72, 98, 237, 1.0);
 		}
 
 		.footer {
